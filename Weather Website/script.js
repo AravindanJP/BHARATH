@@ -57,52 +57,52 @@ function performSearch(){
        wind.innerHTML =`Wind Speed: <br><span>${wndsped} km/h </span>`
        
        if(descri.includes("clouds")){
-            weatherbox.style.backgroundImage = "url('images/Cloudy.jpg')";
+            weatherbox.style.backgroundImage = "url('Cloudy.jpg')";
        }
        if(descri.includes("rain")){
             if(descri.includes("light")){
-                weatherbox.style.backgroundImage = "url('images/LightRainShower.jpg')";
+                weatherbox.style.backgroundImage = "url('LightRainShower.jpg')";
             }
             if(descri.includes("freezing")){
-                weatherbox.style.backgroundImage = "url('images/FreezingRain.jpg')";
+                weatherbox.style.backgroundImage = "url('FreezingRain.jpg')";
             }
             if(descri.includes("heavy")){
-                weatherbox.style.backgroundImage = "url('images/HeavyRain.jpg')";
+                weatherbox.style.backgroundImage = "url('HeavyRain.jpg')";
             }
             else{
-                weatherbox.style.backgroundImage = "url('images/Rain.jpg')";
+                weatherbox.style.backgroundImage = "url('Rain.jpg')";
             }
        }
        if(descri.includes("drizzle")){
-            weatherbox.style.backgroundImage = "url('images/Drizzle.jpg')";
+            weatherbox.style.backgroundImage = "url('Drizzle.jpg')";
        }
        if(descri.includes("fog") || descri.includes("haze" || descri.includes("mist"))){
-            weatherbox.style.backgroundImage = "url('images/Fog.jpg')";
+            weatherbox.style.backgroundImage = "url('Fog.jpg')";
        }
        if(descri.includes("sunny")){
             if(descri.includes("mostly")){
-                weatherbox.style.backgroundImage = "url('images/MostlySunny.jpg')";
+                weatherbox.style.backgroundImage = "url('MostlySunny.jpg')";
             }
             else {
-                weatherbox.style.backgroundImage = "url('images/Sunny.jpg')";
+                weatherbox.style.backgroundImage = "url('Sunny.jpg')";
             }
        }
        if(descri.includes("night")){
-            weatherbox.style.backgroundImage = "url('images/Night.jpg')";
+            weatherbox.style.backgroundImage = "url('Night.jpg')";
        }
        if(descri.includes("thunder")){
-            weatherbox.style.backgroundImage = "url('images/Thunderstorm.jpg')";
+            weatherbox.style.backgroundImage = "url('Thunderstorm.jpg')";
        }
        if(descri.includes("snow")){
             if(descri.includes("light")){
-                weatherbox.style.backgroundImage = "url('images/LightSnowShower.jpg')";
+                weatherbox.style.backgroundImage = "url('LightSnowShower.jpg')";
             }
             else{
-                weatherbox.style.backgroundImage = "url('images/Snow.jpg')";
+                weatherbox.style.backgroundImage = "url('Snow.jpg')";
             }
        }
        if(descri.includes("clear")){
-            weatherbox.style.backgroundImage = "url('images/Clear.jpg')";
+            weatherbox.style.backgroundImage = "url('Clear.jpg')";
         }
        
        
@@ -158,20 +158,20 @@ function changeUnit() {
 /*********************preloader**************************/
 
 const ImgPaths = [
-    'images/Cloudy.jpg',
-    'images/LightRainShower.jpg',
-    'images/FreezingRain.jpg',
-    'images/HeavyRain.jpg',
-    'images/Rain.jpg',
-    'images/Drizzle.jpg',
-    'images/Fog.jpg',
-    'images/MostlySunny.jpg',
-    'images/Sunny.jpg',
-    'images/Night.jpg',
-    'images/Thunderstorm.jpg',
-    'images/Snow.jpg',
-    'images/LightSnowShower.jpg',
-    'images/Clear.jpg'
+    'Cloudy.jpg',
+    'LightRainShower.jpg',
+    'FreezingRain.jpg',
+    'HeavyRain.jpg',
+    'Rain.jpg',
+    'Drizzle.jpg',
+    'Fog.jpg',
+    'MostlySunny.jpg',
+    'Sunny.jpg',
+    'Night.jpg',
+    'Thunderstorm.jpg',
+    'Snow.jpg',
+    'LightSnowShower.jpg',
+    'Clear.jpg'
 ];
 
 
