@@ -14,7 +14,7 @@
 }
 
 body{
-    background-image: url("images/Background2.jpg");
+    background-image: url("Background2.jpg");
     color: var(--white);
     object-fit: contain;
     height: 100vh;
@@ -80,7 +80,7 @@ body{
     min-width: 20rem;
     width: fit-content;
     height: 30rem; 
-    background-image: url('images/nightBG.jpg');
+    background-image: url('nightBG.jpg');
     background-size:  cover;
     border-radius: .85rem; 
     position: relative;
